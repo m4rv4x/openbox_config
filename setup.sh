@@ -10,6 +10,8 @@ echo "[*] Installing tint2..."
 sudo apt install tint2
 echo "[*] Copying tint2 config..."
 cp /usr/share/tint2/vertical-dark-transparent.tint2rc .config/tint2/.tint2rc
+echo "[*] Installing applets..."
+sudo apt install volumeicon-alsa xfce4-clipman
 echo "[*] Installing wallpapers..."
 sudo apt install mate-backgrounds nitrogen
 echo "[*] Setting up wallpapers..."
